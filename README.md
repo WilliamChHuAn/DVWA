@@ -18,7 +18,7 @@
 9. `vim /etc/php/7.0/apache2/php.ini`
 10. `allow_url_include = Off` → `allow_url_include = On`
 11. `service apache2 restart`
-12. Open Browser and acces `127.0.0.1`
+12. Open browser and access `127.0.0.1`
     - `admin:password`
 13. Click `Create / Reset Database`
 
