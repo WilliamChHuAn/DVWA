@@ -19,15 +19,15 @@
 10. `allow_url_include = Off` → `allow_url_include = On`
 11. `service apache2 restart`
 12. Open browser and access `127.0.0.1`
-    - `admin:password`
+    - Login `admin:password`
 13. Click `Create / Reset Database`
 
 ## Command Injection
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## Cross Site Request Forgery (CSRF)
 
