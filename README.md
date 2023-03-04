@@ -31,10 +31,10 @@
 
 ## Cross Site Request Forgery (CSRF)
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## File Inclusion
 

