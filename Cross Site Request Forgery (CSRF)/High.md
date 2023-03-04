@@ -44,7 +44,7 @@ generateSessionToken();
     - 檢查變數是否已設置
     - I.e., *Change* 按鈕按下去
 
-### `checkToken()` & `generateSessionToken()`
+### token
 
 - `docker exec -it dvwa /bin/bash`
     - 進入 docker
@@ -106,7 +106,7 @@ generateSessionToken();
 - *XSS* 惡意語句是注入到 *name* 輸入框
 - 前端有限制輸入長度，*F12* 改一下就好
 - 後端有用正規表達式 `/<(.*)s(.*)c(.*)r(.*)i(.*)p(.*)t/i`
-- 資料庫中 *dvwa.guestbook* 的 *name*限制長度 *varchar(100)*
+- 資料庫中 *dvwa.guestbook* 的 *name* 限制長度 *varchar(100)*
     1. `docker exec -it dvwa /bin/bash`
     2. `mysql`
     3. `DESCRIBE dvwa.guestbook;`

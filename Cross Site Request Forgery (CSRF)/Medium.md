@@ -75,7 +75,7 @@ if( isset( $_GET[ 'Change' ] ) ) {
 
 ### Example
 
-- 詳見 *Sample code*
+- 詳見 *Sample code* 中的 *127.0.0.1.html* 和 *css* 目錄
 ```HTML
 <!DOCTYPE html>
 
