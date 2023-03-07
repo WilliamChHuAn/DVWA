@@ -3,7 +3,7 @@
 ## View Source
 
 ```PHP
- <?php
+<?php
 
 if( isset( $_POST[ 'Submit' ]  ) ) {
     // Get input
