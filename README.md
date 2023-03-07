@@ -1,6 +1,9 @@
 # DVWA Writeup
 
 > Damn Vulnerable Web Application (DVWA) Writeup & Code Review
+- 可以自行架設學習常見網頁漏洞的靶機
+    - 不像 *CTF* 有 *flag* 可以解題
+    - 所以有各種發揮創意的方式來利用漏洞
 
 ## Install & Settings
 
@@ -66,10 +69,10 @@
 
 ## Weak Session IDs
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## Cross-Site Scripting
 
