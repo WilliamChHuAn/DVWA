@@ -41,10 +41,10 @@
 
 ## File Inclusion
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## File Upload
 
