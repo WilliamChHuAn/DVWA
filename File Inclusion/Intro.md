@@ -11,7 +11,8 @@
 
 ## Objective (View Help)
 
-> Read all five famous quotes from ['../hackable/flags/fi.php'](127.0.0.1/hackable/flags/fi.php) using only the file inclusion.
+> Read all five famous quotes from `../hackable/flags/fi.php` using only the file inclusion.
+- `../hackable/flags/fi.php` = `127.0.0.1/hackable/flags/fi.php` (真的位址)
 
 ## Reference
 
