@@ -55,10 +55,10 @@
 
 ## SQL Injection
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## SQL Injection (Blind)
 
