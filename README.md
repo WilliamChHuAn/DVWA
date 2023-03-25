@@ -62,10 +62,10 @@
 
 ## SQL Injection (Blind)
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## Weak Session IDs
 

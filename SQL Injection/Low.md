@@ -69,8 +69,8 @@ if( isset( $_REQUEST[ 'Submit' ] ) ) {
 
 - 因為資料庫是將密碼用 *md5* 儲存，且使用者密碼是常見弱密碼
 - 可以參照以下網站轉成明文
-	- [CMD5](https://www.cmd5.com/)
-	- [CrackStation](https://crackstation.net/)
+	- [md5在线解密破解,md5解密加密](https://www.cmd5.com/)
+	- [CrackStation - Online Password Hash Cracking](https://crackstation.net/)
 
 ```
 admin	5f4dcc3b5aa765d61d8327deb882cf99 (password)
