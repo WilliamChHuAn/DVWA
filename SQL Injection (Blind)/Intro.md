@@ -15,9 +15,9 @@
 
 ## Reference
 
-- [*Blind SQL injection*](https://portswigger.net/web-security/sql-injection/blind)
-- [*sqlmap®*](https://sqlmap.org/)
-- [*sqlmap*](https://github.com/sqlmapproject/sqlmap)
+- [Blind SQL injection - PortSwigger](https://portswigger.net/web-security/sql-injection/blind)
+- [sqlmap®](https://sqlmap.org/)
+- [sqlmap](https://github.com/sqlmapproject/sqlmap)
 
 ## Note
 

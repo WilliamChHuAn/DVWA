@@ -25,6 +25,11 @@
     - Login `admin:password`
 13. Click `Create / Reset Database`
 
+## Slides
+
+- [x] Damn Vulnerable Web Application (DVWA)
+    - 包含以下部分
+
 ## Command Injection
 
 - [x] Low
@@ -74,25 +79,23 @@
 - [x] High
 - [x] Impossible
 
-## Cross-Site Scripting
-
 ## XSS (DOM)
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## XSS (Reflected)
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible
 
 ## XSS (Stored)
 
-- [ ] Low
-- [ ] Medium
-- [ ] High
-- [ ] Impossible
+- [x] Low
+- [x] Medium
+- [x] High
+- [x] Impossible

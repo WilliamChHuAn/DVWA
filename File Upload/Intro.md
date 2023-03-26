@@ -13,7 +13,7 @@
 
 ## Reference
 
-- [File upload vulnerabilities](https://portswigger.net/web-security/file-upload)
+- [File upload vulnerabilities - PortSwigger](https://portswigger.net/web-security/file-upload)
 - [*PHP* 的檔案上傳機制](https://ithelp.ithome.com.tw/articles/10247638)
 	> 值得一提的是，PHP 上傳的時候有一個機制。會先把上傳的檔案放到 temp 這個資料夾中，等 PHP 執行結束後會被刪除。因此，如果需要保留檔案，就需要使用到 `move_uploaded_file()` 這個方法。
 
